@@ -81,7 +81,6 @@
     }
 
     #hamburger-menu {
-        position: relative;
         z-index: 1002;
         overflow: hidden;
         border-radius: 5px;
@@ -92,6 +91,10 @@
         width: 0;
         align-items: baseline;
         margin-left: -40px;
+        position: fixed;
+        top: 20px;
+        margin: auto;
+        align-items: center;
     }
 
     #hamburger-menu nav {

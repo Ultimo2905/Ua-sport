@@ -171,6 +171,7 @@
     .project-links__ul {
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
 
     .footer-smlogo-text {

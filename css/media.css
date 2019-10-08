@@ -123,8 +123,7 @@
 
 @media (min-width: 320px) and (max-width:810px) {
     .slider-news-score {
-
-        max-width: 90%;
+        display: none;
     }
 
     .footer {
@@ -239,7 +238,3 @@
     }
 
 }
-
-@media (min-width: 460px) and (max-width:810px) {}
-
-@media (min-width: 320px) and (max-width:459px) {}

@@ -68,7 +68,9 @@ a {
 a:hover {
     color: #9a9caf;
 }
-
+.news-cart-block__a:hover{
+  color: #000;
+}
 /* Dropdown */
 
 .dropdown {

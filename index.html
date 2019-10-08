@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Sports</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="My test work" />
+    <meta name="author" content="Vladimir Kotorazhuk" />
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+    <header>
+        <div class="header_flex">
+            <div class="logo logo_flex">
+                <img src="images/h_logo.png" alt="logo" class="logo__image">
+            </div>
+            <!-- <a id="menu-button"></a> -->
+            <a id="menu-button"></a>
+            <div class="navbar navbar_flex" id="hamburger-menu">
+                <div class="dropdown">
+                    <div class="dd-button">
+                        Украина
+                    </div>
+                    <ul class="dd-menu">
+                        <li><a href="№">Сборная</a></li>
+                        <li><a href="№">Премьер-лига</a></li>
+                        <li><a href="№">Кубок Украины</a></li>
+                        <li><a href="№">Первая лига</a></li>
+                        <li><a href="№">Вторая лига</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <div class="dd-button">
+                        Страны
+                    </div>
+                    <ul class="dd-menu">
+                        <li><a href="№">Украина</a></li>
+                        <li><a href="№">Англия</a></li>
+                        <li><a href="№">Испания</a></li>
+                        <li><a href="№">Германия</a></li>
+                        <li><a href="№">Италия</a></li>
+                    </ul>
+                </div>
+                <div class="dropdown">
+                    <div class="dd-button">
+                        Турниры
+                    </div>
+                    <ul class="dd-menu">
+                        <li><a href="№">Лига Чемпионов</a></li>
+                        <li><a href="№">Лига Европы</a></li>
+                        <li><a href="№">Чемпионат мира</a></li>
+                        <li><a href="№">Евро-2020</a></li>
+                    </ul>
+                </div>
+                <a href="" class="navbar__link navbar__link_text-link navbar__link_margin navbar__link_text-link_display">Прогнозы</a>
+                <a href="" class="navbar__link navbar__link_text-link navbar__link_margin
+	            navbar__link_order navbar__link_order-three">Матч - центр</a>
+                <a href="" class="navbar__link navbar__link_text-link navbar__link_margin navbar__link_order-four">Видео</a>
+                <a href="" class="navbar__link navbar__link_text-link navbar__link_margin navbar__link_order-two">LifeStyle</a>
+                <a href="" class="navbar__link navbar__link_text-link navbar__link_margin  ">Рейтинги</a>
+                <a href="" class="navbar__link navbar__link_text-link navbar__link_margin navbar__link_order-five">Спорт</a>
+                <a href="" class="navbar__link navbar__link_text-link navbar__link_margin navbar__link_order-five">ТВ</a>
+                <a href="" class="navbar__link navbar__link_text-link navbar__link_margin navbar__link_order-five navbar__link_text-dots">. . .</a>
+            </div>
+            <div id="overlay"></div>
+            <div class="search-login-lang">
+                <form class="search-form">
+                    <input type="text" name="search" placeholder=" Search.." class="search-form__enter-text">
+                </form>
+                <a href="#"><img src="images/login.png" alt=""></a>
+                <div class="dropdown display-none"  >
+                    <div class="dd-button">
+                        Рус
+                    </div>
+                    <ul class="dd-menu">
+                        <li>
+                            <a href="#">EN</a>
+                        </li>
+                        <li>
+                            <a href="#">Укр</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="story-way">
+            <p class="story-way__text-story">UA-Футбол > Англия. Премьер Лига</p>
+        </div>
+    </header>
+    <main>
+        <div class="slider-news-score">
+            <button class="laquo">&lt;</button>
+            <ul class="slidertwo">
+                <li class="slidertwo__cart slidertwo__cart_padding-left"><img src="images/news_cart.png" alt="news"></li>
+                <li class="slidertwo__cart"><img src="images/news_cart.png" class="slidertwo__picture" alt="news"></li>
+                <li class="slidertwo__cart"><img src="images/news_cart.png" class="slidertwo__picture" alt="news"></li>
+                <li class="slidertwo__cart"><img src="images/news_cart.png" class="slidertwo__picture" alt="news"></li>
+                <li class="slidertwo__cart"><img src="images/news_cart_live.png" class="slidertwo__picture" alt="news"></li>
+                <li class="slidertwo__cart"><img src="images/news_cart_unc.png" class="slidertwo__picture" alt="news"></li>
+                <li class="slidertwo__cart"><img src="images/news_cart.png" class="slidertwo__picture" alt="news"></li>
+                <li class="slidertwo__cart"><img src="images/news_cart.png" class="slidertwo__picture" alt="news"></li>
+                <li class="slidertwo__cart"><img src="images/news_cart.png" class="slidertwo__picture" alt="news"></li>
+            </ul>
+            <button class="raquo">&gt;</button>
+        </div>
+        <div class="news-block">
+            <div>
+                <div>
+                    <div id="wrapper">
+                        <div id="slider-wrap">
+                            <ul id="slider">
+                                <li class="news-slide">
+                                    <div class="slider-content">
+                                        <p class="slider-content__text"><span class="slider-content__span">Премьер лига Англии</span>
+                                            <span class="slider-content__spantwo">20:45 12 декабря 2019</span></p>
+                                        <p class="slider-content__main-text">Модрич: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро</p>
+                                        <p class="slider-content__footer-text">Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию</p>
+                                    </div>
+                                </li>
+                                <li class="news-slide">
+                                    <div class="slider-content">
+                                        <p class="slider-content__text"><span class="slider-content__span">Премьер лига Украины</span>
+                                            <span class="slider-content__spantwo">20:45 12 декабря 2019</span></p>
+                                        <p class="slider-content__main-text">Мальдини: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро</p>
+                                        <p class="slider-content__footer-text">Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию</p>
+                                    </div>
+                                </li>
+                                <li class="news-slide">
+                                    <div class="slider-content">
+                                        <p class="slider-content__text"><span class="slider-content__span">Премьер лига Германии</span>
+                                            <span class="slider-content__spantwo">20:45 12 декабря 2019</span></p>
+                                        <p class="slider-content__main-text">Озил: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро</p>
+                                        <p class="slider-content__footer-text">Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию</p>
+                                    </div>
+                                </li>
+                                <li class="news-slide">
+                                    <div class="slider-content">
+                                        <p class="slider-content__text"><span class="slider-content__span">Премьер лига Испании</span>
+                                            <span class="slider-content__spantwo">20:45 12 декабря 2019</span></p>
+                                        <p class="slider-content__main-text">Азар: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро</p>
+                                        <p class="slider-content__footer-text">Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию</p>
+                                    </div>
+                                </li>
+                                <li class="news-slide">
+                                    <div class="slider-content">
+                                        <p class="slider-content__text"><span class="slider-content__span">Премьер лига Италии</span>
+                                            <span class="slider-content__spantwo">20:45 12 декабря 2019</span></p>
+                                        <p class="slider-content__main-text">Кройф: Если Хорватия продолжит так играть, у нас будут большие проблемы с попаданием на Евро</p>
+                                        <p class="slider-content__footer-text">Обладатель Золотого мяча не помог вице-чемпиону мира обыграть скромную Венгрию</p>
+                                    </div>
+                                </li>
+                            </ul>
+                            <!--controls-->
+                            <div class="btns" id="next">&gt;</div>
+                            <div class="btns" id="previous">&lt;</div>
+                            <div id="counter"></div>
+                            <div id="pagination-wrap">
+                                <ul>
+                                </ul>
+                            </div>
+                            <!--controls-->
+                        </div>
+                    </div>
+                </div>
+                <div class="news-cart-block">
+                    <div class="news-article">
+                        <div><img src="images/news1.jpg" alt=""></div>
+                        <div class="news-cart">
+                            <p class="news-cart__date">Вчера, 15:45<span class="news-cart__liga">Премьер лига Англии</span>
+                            </p>
+                            <p class="news-cart__title">Отбор к Евро-2019 (U-21). Украина - Андорра. Анонс и прогноз матча квалификации
+                                <img src="images/Commmit.svg" alt="" class="right-sidebar-articl__commit"><span class="news-cart__like">1</span>
+                            </p>
+                            <p class="news-cart__text">После победы над сборной Латвии (3:2) подопечные Александра Головко не имеют права терять очки в поединке…</p>
+                        </div>
+                    </div>
+                    <div class="break-news-cart">
+                        <p class="break-news-cart__date">Вчера, 11 сентября 2018, среда</p>
+                    </div>
+                    <div class="news-article">
+                        <div><img src="images/news2.jpg" alt=""></div>
+                        <div class="news-cart">
+                            <p class="news-cart__date">Вчера, 15:45<span class="news-cart__liga">Премьер лига Англии</span>
+                            </p>
+                            <p class="news-cart__title">Отбор к Евро-2019 (U-21). Украина - Андорра. Анонс и прогноз матча квалификации
+                                <img src="images/Commmit.svg" alt="" class="right-sidebar-articl__commit"><span class="news-cart__like">1</span>
+                            </p>
+                            <p class="news-cart__text">После победы над сборной Латвии (3:2) подопечные Александра Головко не имеют права терять очки в поединке…</p>
+                        </div>
+                    </div>
+                    <div class="pagination">
+                        <a href="blog3.html" class="pagination__page"> &lt; </a>
+                        <a href="blog1.html" class="pagination__page"> 1 </a>
+                        <a href="blog2.html" class="pagination__page"> 2 </a>
+                        <a href="blog3.html" class="pagination__page"> 3 </a>
+                        <a href="blog1.html" class="pagination__page"> ... </a>
+                        <a href="blog1.html" class="pagination__page"> 109 </a>
+                        <a href="blog2.html" class="pagination__page"> 110 </a>
+                        <a href="blog3.html" class="pagination__page"> 111 </a>
+                        <a href="blog2.html" class="pagination__page"> &gt; </a>
+                    </div>
+                </div>
+            </div>
+            <article class="right-sidebar">
+                <div class="right-sidebar-articl__title-block">
+                    <h3 class="right-sidebar-articl__title">Новости футбола</h3>
+                </div>
+                <div class="right-sidebar-articl__images-block">
+                    <p class="right-sidebar-articl__text right-sidebar-articl__text_margin-top"><span class="right-sidebar-articl__text-span right-sidebar-articl__text-span_margin">20:45 Золотой мяч</span></p>
+                    <p class="right-sidebar-articl__text right-sidebar-articl__text_border-bottom-none">Кардифф Сити не будет перечислять Нанту всю сумму за трансфер погибшего Сала
+                        <img src="images/Commmit.svg" alt="" class="right-sidebar-articl__commit"><span class="right-sidebar-articl__text-span">3 009</span>
+                    </p>
+                </div>
+                <div class="right-sidebar-articl">
+                    <p class="right-sidebar-articl__text"><span class="right-sidebar-articl__text-span right-sidebar-articl__text-span_margin">21:50 Бундеслига</span></p>
+                    <p class="right-sidebar-articl__text right-sidebar-articl__text_border-bottom">Наше класико, наша женская судейская бригада, ФК Карпаты остались без всех своих фанатов
+                        <img src="images/Commmit.svg" alt="" class="right-sidebar-articl__commit"><span class="right-sidebar-articl__text-span">4 349</span>
+                    </p>
+                </div>
+                <div class="right-sidebar-articl">
+                    <p class="right-sidebar-articl__text"><span class="right-sidebar-articl__text-span right-sidebar-articl__text-span_margin">21:50 Бундеслига</span></p>
+                    <p class="right-sidebar-articl__text right-sidebar-articl__text_border-bottom">Наше класико, наша женская судейская бригада, ФК Карпаты остались без всех своих фанатов<img src="images/Commmit.svg" alt="" class="right-sidebar-articl__commit"><span class="right-sidebar-articl__text-span right-sidebar-articl__text-span_margin">4 349</span></p>
+                </div>
+                <div class="right-sidebar-articl">
+                    <p class="right-sidebar-articl__text"><span class="right-sidebar-articl__text-span right-sidebar-articl__text-span_margin">21:50 Бундеслига</span></p>
+                    <p class="right-sidebar-articl__text right-sidebar-articl__text_border-bottom">Наше класико, наша женская судейская бригада, ФК Карпаты остались без всех своих фанатов<img src="images/Commmit.svg" alt="" class="right-sidebar-articl__commit"><span class="right-sidebar-articl__text-span right-sidebar-articl__text-span_margin">4 349</span></p>
+                </div>
+                <div class="right-sidebar-articl">
+                    <p class="right-sidebar-articl__text"><span class="right-sidebar-articl__text-span right-sidebar-articl__text-span_margin">21:50 Бундеслига</span></p>
+                    <p class="right-sidebar-articl__text ">Наше класико, наша женская судейская бригада, ФК Карпаты остались без всех своих фанатов<img src="images/Commmit.svg" alt="" class="right-sidebar-articl__commit"><span class="right-sidebar-articl__text-span right-sidebar-articl__text-span_margin">4 349</span></p>
+                </div>
+                <div class="right-sidebar-all-news">
+                    <a href="#" class="right-sidebar-all-news__link">Все новости</a>
+                </div>
+            </article>
+        </div>
+    </main>
+    <footer class="footer">
+        <div>
+            <div class="footer-grup-link">
+                <div class="footer-colomn-link">
+                    <div class="footer-link">
+                        <p class="footer-link__tile">Украина</p>
+                    </div>
+                    <div class="footer-colomn-link__grup">
+                        <div class="footer-link__colomn">
+                            <ul class="footer-link__colomn_ul footer-link__colomn_ul-marginr">
+                                <li><a href="#" class="footer-link__a">Премьер - Лига</a></li>
+                                <li><a href="#" class="footer-link__a">Сборная Украины</a></li>
+                                <li><a href="#" class="footer-link__a">Первая Лига</a></li>
+                                <li><a href="#" class="footer-link__a">Вторая Лига</a></li>
+                            </ul>
+                        </div>
+                        <div class="footer-link__colomn">
+                            <ul>
+                                <li><a href="#" class="footer-link__a">Аматорский футбол</a></li>
+                                <li><a href="#" class="footer-link__a">Футзал</a></li>
+                                <li><a href="#" class="footer-link__a">Кубок Украины</a></li>
+                                <li><a href="#" class="footer-link__a">Наши за границе</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-colomn-link">
+                    <div class="footer-link">
+                        <p class="footer-link__tile">Мир</p>
+                    </div>
+                    <div class="footer-colomn-link__grup">
+                        <div class="footer-link__colomn">
+                            <ul class="footer-link__colomn_ul">
+                                <li><a href="#" class="footer-link__a">Чемпионат Англии</a></li>
+                                <li><a href="#" class="footer-link__a">Чемпионат Испании</a></li>
+                                <li><a href="#" class="footer-link__a">Чемпионат Италии</a></li>
+                                <li><a href="#" class="footer-link__a">Чемпионат Франции</a></li>
+                            </ul>
+                        </div>
+                        <div>
+                            <ul>
+                                <li><a href="#" class="footer-link__a">Чемпионат Германии</a></li>
+                                <li><a href="#" class="footer-link__a">Чемпионат России</a></li>
+                                <li><a href="#" class="footer-link__a">Лига чемпионов</a></li>
+                                <li><a href="#" class="footer-link__a">Лига Европы</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="flex-property">
+                    <div class="footer-colomn-link footer-colomn-link_max-widthlg">
+                        <div class="footer-link">
+                            <p class="footer-link__tile">Турниры</p>
+                        </div>
+                        <div class="footer-colomn-link__grup">
+                            <div class="footer-link__colomn">
+                                <ul class="footer-link__colomn_ul footer-link__colomn_ul-margin">
+                                    <li><a href="#" class="footer-link__a">Лига чемпионов</a></li>
+                                    <li><a href="#" class="footer-link__a">Лига Европы</a></li>
+                                    <li><a href="#" class="footer-link__a">Чемпионат Мира 2018</a></li>
+                                    <li><a href="#" class="footer-link__a">Лига Наций</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-colomn-link footer-colomn-link_max-widthmd">
+                        <div class="footer-link">
+                            <p class="footer-link__tile">Разное</p>
+                        </div>
+                        <div class="footer-colomn-link__grup">
+                            <div class="footer-link__colomn">
+                                <ul class="footer-link__colomn_ul footer-link__colomn_ul-margin">
+                                    <li><a href="#" class="footer-link__a">Рейтинг ФИФА</a></li>
+                                    <li><a href="#" class="footer-link__a">Рейтинг УЕФА</a></li>
+                                    <li><a href="#" class="footer-link__a">Рейтинг клубов</a></li>
+                                    <li><a href="#" class="footer-link__a">Трансферы</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="social-links">
+                <div>
+                    <a href="#">
+                        <picture>
+                            <source media="(max-width: 810px)" srcset="images/twmob.png">
+                            <img src="images/tw.png" alt="Twiter">
+                        </picture>
+                    </a>
+                    <a href="#" class="social-links__link_margin">
+                        <picture>
+                            <source media="(max-width: 810px)" srcset="images/fbmob.png">
+                            <img src="images/tw.png" alt="Facebook">
+                        </picture>
+                    </a>
+                    <a href="#" class="social-links__link_margin">
+                        <picture>
+                            <source media="(max-width: 810px)" srcset="images/googlemob.png">
+                            <img src="images/tw.png" alt="Google">
+                        </picture>
+                    </a>
+                    <a href="#" class="social-links__link_margin">
+                        <picture>
+                            <source media="(max-width: 810px)" srcset="images/ytmob.png">
+                            <img src="images/tw.png" alt="YouTube">
+                        </picture>
+                    </a>
+                </div>
+                <div class="project-links">
+                    <ul class="project-links__ul">
+                        <li><a href="#" class="project-links__link">О проекте</a></li>
+                        <li><a href="#" class="project-links__link project-links__link_margin">Реклама на сайте</a></li>
+                        <li><a href="#" class="project-links__link project-links__link_margin">RSS</a></li>
+                        <li><a href="#" class="project-links__link project-links__link_margin margim-none">Политика Конфиденциальности</a></li>
+                        <li><a href="#" class="project-links__link project-links__link_margin display-block">Пк версия</a></li>
+                    </ul>
+                </div>
+                <div class="display-none">
+                    <a href="#" class="project-links__link">Мобильная Версия</a>
+                </div>
+            </div>
+            <div class="footer-smlogo-text">
+                <div class="footer-logo">
+                    <img src="images/logosm.png" alt="">
+                </div>
+                <div class="footer-text display-none">
+                    <p class="footer-text__p">Наша апликуха на сторах:</p>
+                </div>
+            </div>
+            <div class="footer-bottom-text">
+                <p class="footer-bottom-text__p">
+                    © UA-Футбол 2002-2018.<br>
+                    Все права на материалы, находящиеся на сайте www.ua-football.com, охраняются в соответствии с законодательством Украины.<br>
+                    Материалы сайта предназначены для лиц старше 18 лет (18+).<br>
+                    Пишите нам: info@ua-football.com
+                </p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/HamburgerMenu.js"></script>
+</body>
+
+</html>

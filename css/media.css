@@ -1,0 +1,245 @@
+@media (min-width: 320px) and (max-width:1024px) {
+    .news-block {
+        flex-wrap: wrap;
+        justify-content: center;
+        /*        padding: 0 5px;*/
+    }
+
+    .slidertwo {
+        padding: 0 10px;
+    }
+
+    .right-sidebar {
+        margin: 10px 0;
+    }
+
+}
+
+@media (min-width: 320px) and (max-width:1000px) {
+    .logo_flex {
+        padding-left: 75px;
+    }
+
+    .navbar_flex {
+        padding-top: 40px;
+        justify-content: flex-start;
+    }
+
+    .dropdown,
+    .navbar__link_margin {
+        margin-bottom: 20px;
+    }
+
+    /*hamburger-menu*/
+    #menu-button {
+        position: absolute;
+        display: block;
+        width: 64px;
+        height: 64px;
+        border-radius: 5px;
+        z-index: 1002;
+    }
+
+    #menu-button:after {
+        position: absolute;
+        content: "☰";
+        font-size: 28px;
+        color: #fff;
+        width: 64px;
+        height: 64px;
+        text-align: center;
+        line-height: 65px;
+    }
+
+    #menu-button:hover {
+        opacity: 0.8;
+    }
+
+    #menu-button.on:after {
+        content: "x";
+        color: #fff;
+    }
+
+    #overlay {
+        display: none;
+        height: 100vh;
+        width: 100%;
+        position: fixed;
+        z-index: 1001;
+        opacity: 0;
+        background-image: url(../images/LogohamburgerMenu.png);
+        background-repeat: no-repeat;
+        background-position: 28px 21px;
+        background-color: #292f42;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+
+    #overlay.open {
+        display: block;
+    }
+
+    #hamburger-menu {
+        position: relative;
+        z-index: 1002;
+        overflow: hidden;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+        height: 0;
+        width: 0;
+        align-items: baseline;
+        margin-left: -40px;
+    }
+
+    #hamburger-menu nav {
+        padding: 10px;
+        z-index: 101;
+        overflow-y: hidden;
+        overflow-x: hidden;
+        background-color: #3cb3b3;
+        border-radius: 10px;
+        height: 300px;
+    }
+
+    #hamburger-menu nav a {
+        display: block;
+        padding: 10px;
+        /*height: 1em;*/
+        color: #fff;
+        font-size: 1em;
+        line-height: 1em;
+        text-decoration: none;
+        overflow: hidden;
+    }
+
+    #hamburger-menu nav a:hover {
+        cursor: pointer;
+        color: #fff;
+    }
+}
+
+@media (min-width: 320px) and (max-width:810px) {
+    .slider-news-score {
+
+        max-width: 90%;
+    }
+
+    .footer {
+        background-color: #000;
+        height: 100%;
+        background-image: unset;
+    }
+
+    .footer-grup-link {
+        flex-direction: column;
+        max-width: 300px;
+        padding: 0;
+    }
+
+    .footer-colomn-link {
+        margin: 25px 0 0 0;
+
+    }
+
+    .footer-link__colomn_ul-marginr {
+        margin-right: 60px;
+    }
+
+    .footer-colomn-link_max-widthlg {
+        margin-right: 35px;
+    }
+
+    .display-block {
+        display: block;
+    }
+
+    .display-none {
+        display: none;
+    }
+
+    .social-links {
+        max-width: 300px;
+        flex-direction: column;
+    }
+
+    .margim-none {
+        margin-left: 0;
+    }
+
+    .project-links__ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer-smlogo-text {
+        max-width: 300px;
+    }
+
+    .footer-bottom-text {
+        max-width: 300px;
+        padding-bottom: 10px;
+    }
+
+    .social-links__link_margin {
+        margin-left: 40px;
+    }
+
+    .search-login-lang {
+        padding-right: 20px;
+    }
+
+    .search-form {
+        right: 50px;
+    }
+}
+
+@media (min-width:320px) and (max-width:750px) {
+    .news-article {
+        width: 90%;
+        flex-direction: column;
+        margin: 0 auto;
+        padding: 10px 15px;
+    }
+
+    .break-news-cart {
+        width: 90%;
+    }
+
+    #wrapper {
+        display: none;
+    }
+
+    .news-cart-block {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .news-cart__date {
+        font-size: 10px;
+        margin: 0 0 10px 0;
+    }
+
+    .news-cart__title {
+        font-size: 12px;
+        margin: 0 0 5px 0;
+    }
+
+    .news-cart__text {
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+    .pagination__page {
+
+        font-size: 12px;
+
+    }
+
+}
+
+@media (min-width: 460px) and (max-width:810px) {}
+
+@media (min-width: 320px) and (max-width:459px) {}
